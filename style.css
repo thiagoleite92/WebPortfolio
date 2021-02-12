@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(205, 231, 231);
+}
+img{
+    border-radius: 10% 10%;
+}
+.minhafoto{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    color: black;
+
+}
+
+.skills li{
+    margin: 20px 0;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba (0,0,0,0.3);
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: red;
+}
+
+.html{
+    width: 15%;
+}
+
+.css{
+    width: 10%;
+}
+.javascript{
+    width: 0%;
+}
