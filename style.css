@@ -1,54 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: justify;
+    padding: 0px;
+    
+}
+
 body{
-    background-color: rgb(205, 231, 231);
+    background-color: rgba(233, 67, 1, 0.253);
+    margin: auto;
+    width: auto;
+    max-width: 900px;
+    
 }
-img{
-    border-radius: 10% 10%;
+
+.displaylink{
+    display: inline;
+    background-color: yellow;
 }
+
 .minhafoto{
-    width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-h1{
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em
-}
-
-.skills{
-    width: 500px;
-    margin: 60px auto;
-    color: black;
-
-}
-
-.skills li{
-    margin: 20px 0;
-}
-
-.bar{
-    background: #353b48;
-    display: block;
-    height: 2px;
-    border: 1px solid rgba (0,0,0,0.3);
-    overflow: hidden;
-    box-shadow: 0 0 10px #2187e7b3;
-}
-
-.bar span{
-    height: 2px;
+    width:auto ;
+    max-width: 450px;
+    height: auto;
+    max-height: 450px;
+    border-radius: 5%;
+    border: solid rgba(121, 117, 117, 0.829) 1px;
     float: left;
-    background: red;
+    
 }
 
-.html{
-    width: 15%;
+.imgcontainer{
+    width: auto;
+    max-width: 450px;
+    float:left;
+    
+    margin-right: 15px;
+
 }
 
-.css{
-    width: 10%;
+.divhistory{
+    
+    padding: 15px;
+    margin-left: 15px;
+
 }
-.javascript{
-    width: 0%;
+
+.hrstyle{
+    
+    color: rgba(121, 117, 117, 0.829);
+    
+}
+
+.divdesafio{
+    float: left;
+    
+}
+.divhardskill{
+    background: grey;
+    float: left;
+    margin: auto;
+}
+.divsoftskill{
+    float:right;
+    background-color: yellow;
+}
+
+
+
+.paragraphhistory{
+    font-size: 17px;
+    margin: 15px;
+    
 }
